@@ -4,11 +4,11 @@
 C12832_LCD lcd;
 
 // Initialize joystick pins (pull-down mode)
-DigitalIn joystick_up(p13);
-DigitalIn joystick_down(p14);
-DigitalIn joystick_left(p11);
-DigitalIn joystick_right(p12);
-DigitalIn joystick_center(p15);
+DigitalIn joystick_up(p15);
+DigitalIn joystick_down(p12);
+DigitalIn joystick_left(p13);
+DigitalIn joystick_right(p16);
+DigitalIn joystick_center(p14);
 
 int main() {
     lcd.cls();
